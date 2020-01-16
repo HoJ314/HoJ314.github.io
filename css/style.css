@@ -1,79 +1,99 @@
-body
-{
+body{
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 15px;
+  font-size: 16px;
   line-height: 1.5;
   padding: 0;
   margin: 0;
   background-color: #B9EFFE;
 }
 
-.container
-{
+.container{
   width: 80%
   margin: auto;
   overflow: hidden;
 }
 
 /* -----------Header----------- */
-header
-{
-  background: #555555;
-  color: #e8491d;
-  padding-top: 30px;
+header{
+  background: #7A909E;
+  color: #3870b8;
+  padding-top: 10px;
   padding-left: 10px;
   min-height: 70px;
-  border-bottom: #e8491d 3px solid;
+  border-bottom: #3870b8 5px solid;
 }
 
-header a
-{
+header a{
   color: #ffffff;
   text-decoration: none;
   text-transform: uppercase;
   font-size: 16px;
 }
 
-header a:hover
-{
+header a:hover{
   color: #e8491d;
   font-weight: bold;
 }
 
 
-header ul
-{
+header ul{
   margin: 0;
   padding: 0;
 }
 
-header li
-{
+header li{
   float:left;
   display: inline;
   padding: 0 20px 0 20px;
 }
 
-header #branding
-{
+header #branding{
   text-align: center;
 }
 
-header #branding h1
-{
+header #branding h1{
   margin: 0px;
-  font-size: 50px;
+  font-size: 60px;
 }
 
-header nav
-{
-  float: right;
+header #pagetitle h2{
+  margin: 0px;
+  font-size: 20px;
+  text-align: center;
+  color: #FFFFFF
+}
+
+header nav{
+  float: left;
   margin-bottom: 10px;
 }
 
+/* --------- Footer ------- */
+
+footer{
+  text-align: center;
+  background-color: #3870b8;
+  color: #ffffff;
+  margin-top: 20px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Home Page Navigation Boxes */
+
+#introtopics .box{
+    float: left;
+    text-align: center;
+    width: 30%;
+    padding: 10px;
+
+
+}
+
+
 /* --------Showcase-------- */
-#desc-img
-{
+#desc-img{
   min-height: 400px;
   background-image:url('../img/showcase.jpg');
   background-position: center;
@@ -83,8 +103,7 @@ header nav
 
   filter: blur(5px);
 }
-#desc
-{
+#desc{
   background-color: rgb(0,100,0); /* Fallback color */
   background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
   color: #ffffff;
@@ -101,4 +120,18 @@ header nav
   text-align: center;
 }
 
-/*--------Body--------*/
+/*--------About Page--------*/
+#basicinfo{
+  padding-left: 10px;
+}
+
+
+
+/*--------Contact Page--------*/
+#contact{
+  padding-left: 10px;
+}
+
+#skills{
+  padding-left: 10px;
+}
