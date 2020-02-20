@@ -1,17 +1,13 @@
 body{
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.5;
   padding: 0;
   margin: 0;
   background-color: #B9EFFE;
 }
 
-.container{
-  width: 80%
-  margin: auto;
-  overflow: hidden;
-}
+
 
 /* -----------Header----------- */
 header{
@@ -27,7 +23,7 @@ header a{
   color: #ffffff;
   text-decoration: none;
   text-transform: uppercase;
-  font-size: 16px;
+  font-size: 18px;
 }
 
 header a:hover{
@@ -47,6 +43,11 @@ header li{
   padding: 0 20px 0 20px;
 }
 
+header nav{
+  float: left;
+  margin-bottom: 10px;
+}
+
 header #branding{
   text-align: center;
 }
@@ -57,16 +58,13 @@ header #branding h1{
 }
 
 header #pagetitle h2{
-  margin: 0px;
+  margin: 10px;
   font-size: 20px;
   text-align: center;
   color: #FFFFFF
 }
 
-header nav{
-  float: left;
-  margin-bottom: 10px;
-}
+
 
 /* --------- Footer ------- */
 
@@ -74,10 +72,11 @@ footer{
   text-align: center;
   background-color: #3870b8;
   color: #ffffff;
-  margin-top: 20px;
+  margin-top: 30px;
   position: absolute;
   bottom: 0;
   width: 100%;
+  padding-top: 5px;
 }
 
 /* Home Page Navigation Boxes */
@@ -118,36 +117,4 @@ footer{
   width: 80%;
   padding: 20px;
   text-align: center;
-}
-
-/*--------About Page--------*/
-#basicinfo{
-  padding-left: 10px;
-}
-
-#experience{
-  padding-left: 10px;
-}
-
-
-/*--------Contact Page--------*/
-#contact{
-  padding-left: 10px;
-}
-
-#skills{
-  padding-left: 10px;
-}
-
-/*--------Project Page--------*/
-#introproj{
-  padding-left: 10px;
-}
-
-#currentproj{
-  padding-left: 10px;
-}
-
-#schoolproj{
-  padding-left: 10px;
 }

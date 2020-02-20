@@ -2,11 +2,14 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Web Portfolio Showcase.">
     <meta name="author" content="Jeremy Ho">
     <title> Jeremy Ho's Portfolio | About </title>
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   </head>
 
   <body>
@@ -69,21 +72,23 @@
           <p>
             <h1>My Skills and Knowledge</h1>
           </p>
-        Altera Quartus II
-        MATLAB
-        Cadence
-        Modelsim
-        C/C++
-        Python
-        Assembly Language
-        KiCad
-        PLC Programming
-        Microsoft System Center Configuration Manager
-        Microsoft Office Applications
-        ServiceNow
-        HTML5
-        CSS
-        
+          <ul>
+            <li>Altera Quartus II</li>
+            <li>MATLAB</li>
+            <li>Cadence</li>
+            <li>Modelsim</li>
+            <li>C/C++</li>
+            <li>Python</li>
+            <li>Assembly Language</li>
+            <li>KiCad</li>
+            <li>PLC Programming</li>
+            <li>Microsoft System Center Configuration Manager</li>
+            <li>Microsoft Office Applications</li>
+            <li>ServiceNow</li>
+            <li>HTML5</li>
+            <li>CSS</li>
+        </ul>
+
         </section>
       </div>
 
@@ -91,77 +96,255 @@
         <section id="courses">
           <p>
             <h1>School Courses</h1>
-          <ul>
-            </br><li>Intro to Digital Logics</li></br>
-            Base number systems, boolean algebra, logic gates, truth-tables and Karnaugh Maps. 
-            Also created logic gate circuits on Altera Quartus II to simulate results on a FPGA board.
-            
-            </br><li>Intro to Programming</li></br>
-            Learned C++ language and basic programming concepts such as using data types, operators, variables, 
-            IF-ELSE, then, Do-While and For loops, Null-Terminal Character Arrays, 2D arrays.
-            Also learned file input and output, template, classes, struct, functions, and constructors.
-            
-            </br><li>Data Structures</li></br>
-            Further C++ OOP development, learning stacks, queues, linked list, arrays, trees, sorting and searching.
-            Used and learned multiple common algorithms related to such OOP concepts
-          
-            </br><li>Intro to Operating Systems</li></br>
-            Learned the concepts of process management, concurrency, synchronization, deadlock, multithreading,
-            memory management, scheduling, and internet working. Familarized with UNIX.
-          
-            </br><li>Intro to Microprocessors and Embedded System Design</li></br>
-            Learned machine organization, interface design, and C and assembly language programming for real-time embedded systems.
-            Used both C and Assembly to be flashed onto a 8051 Microcontroller resulting in a tune to be heard and flashing LEDs with
-            after a button is pressed
-           
-            </br><li>Circuits I & II</li></br>
-            Circuit elements, signals, Kirchhoff's laws, network theorems, mesh and nodal analysis, 
-            transient and complete response of RL, RC, and RLC circuits. As well as AC circuits, phasor notation, 
-            polyphase circuits, complex frequency and frequency response, magnetically coupled circuits.
-            Lab consisted of analysis and creating circuits using an oscilloscope, digital multimeter, and AC/DC power supply.
-            
-            </br><li>Digital Signal Processing</li></br>
-            Analysis methods for discrete-time signals and systems in the time and frequency-domains including
-            signal models and Fourier techniques. Used MATLAB to filter out some sounds of a MP3 clip using techniques learned.
-            
-            </br><li>Embedded Processor System Design</li></br>
-            Embedded C Development of hardware and software for embedded systems. Topics includes real-time operating systems,
-            communication schemes, hardware peripherals and sensors, control methodologies, printed-circuit board design,
-            interrupts, and microcontrollers. Design project consisted of creating an MP3 player on a breadboard,programming
-            and flashing software to let components communicate and play music using an SD card attached.
-       
-            </br><li>Digital Systems Design</li></br>
-            Design of 32-bit microcontroller based systems. Topics include the instruction set architecture of a 32-bit microcontroller,
-            assembly language and C programming, using microcontroller peripherals for communication, measurement and control. 
-            Student designs, programs and tests microcontroller based projects. Mainly used assembly language for projects.
-            
-            </br><li>Intro to VLSI Design</li></br>
-            Design and analysis of digital integrated circuits (ICs). Topics include basic manufacturing techniques,
-            transistor-level design and analysis of logic and memory circuits, logic timing, and parasitics. Used Cadence software
-            to design basic chips at the nano / micrometer level.
-            
-            </br><li>Intro to Computer Communication Networks</li></br>
-            Network architecture, protocols and standards, performance considerations, and network technologies. Used WireShark software
-            to track packets and analyse network.
-            
-            </br><li>Basic PLCs</li></br>
-            Learned Ladder Logic Programming and examples from case studies. Hands-on PLC and HMI programming of a machine on both a
-            ControlLogix 5000 and a Siemans S7 hardware to automate a scenario case.
-            
-            </br><li>Intro to Electronic Devices</li></br>
-            Materials and device structures for applications in analog and digital electronics such as FETS, diodes, transistors, and 
-            operational amplifiers. Lab consisted of using measuring techniques for hands-on analysis of the electronic devices.
-            
-            </br><li>Electronics I</li></br>
-            In-depth analysis of diode and transistor circuits, small signal analysis, amplifier design, differential 
-            and operational amplifiers, flipflop circuits and waveshaping. 
-            
-            </br><li>Computer Organization and Design</li></br>
-            Learned topics such as metrics for computer performance, computer arithmetic, Von Neumann architecture,
-            instruction implementation, control unit, pipelining, memory systems hierarchy, cache memories 
-            and basic I/O controllers
-            
-          </ul>
+            <div class="panel-group">
+              <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a data-toggle="collapse" href="#collapse1">Intro to Digtal Logics</a>
+              </h4>
+            </div>
+            <div id="collapse1" class="panel-collapse collapse">
+              <div class="panel-body">
+              Base number systems, boolean algebra, logic gates, truth-tables and Karnaugh Maps.
+              Also created logic gate circuits on Altera Quartus II to simulate results on a FPGA board.
+              </div>
+            </div>
+          </div>
+        </div>
+
+            <div class="panel-group">
+              <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a data-toggle="collapse" href="#collapse2">Intro to Programming</a>
+              </h4>
+            </div>
+            <div id="collapse2" class="panel-collapse collapse">
+              <div class="panel-body">
+              Learned C++ language and basic programming concepts such as using data types, operators, variables,
+              IF-ELSE, then, Do-While and For loops, Null-Terminal Character Arrays, 2D arrays.
+              Also learned file input and output, template, classes, struct, functions, and constructors.
+            </div>
+          </div>
+        </div>
+      </div>
+
+          <div class="panel-group">
+            <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a data-toggle="collapse" href="#collapse3">Data Structures</a>
+              </h4>
+            </div>
+            <div id="collapse3" class="panel-collapse collapse">
+              <div class="panel-body">
+              Further C++ OOP development, learning stacks, queues, linked list, arrays, trees, sorting and searching.
+              Used and learned multiple common algorithms related to such OOP concepts
+            </div>
+          </div>
+        </div>
+      </div>
+
+          <div class="panel-group">
+            <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a data-toggle="collapse" href="#collapse4">Intro to Operating Systems</a>
+              </h4>
+            </div>
+            <div id="collapse4" class="panel-collapse collapse">
+              <div class="panel-body">
+              Learned the concepts of process management, concurrency, synchronization, deadlock, multithreading,
+              memory management, scheduling, and internet working. Familarized with UNIX.
+            </div>
+          </div>
+        </div>
+      </div>
+
+          <div class="panel-group">
+            <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a data-toggle="collapse" href="#collapse5">Intro to Microprocessors and Embedded System Design</a>
+              </h4>
+            </div>
+            <div id="collapse5" class="panel-collapse collapse">
+              <div class="panel-body">
+              Learned machine organization, interface design, and C and assembly language programming for real-time embedded systems.
+              Used both C and Assembly to be flashed onto a 8051 Microcontroller resulting in a tune to be heard and flashing LEDs with
+              after a button is pressed
+            </div>
+          </div>
+        </div>
+      </div>
+
+          <div class="panel-group">
+            <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a data-toggle="collapse" href="#collapse6">Circuits I & II</a>
+              </h4>
+            </div>
+            <div id="collapse6" class="panel-collapse collapse">
+              <div class="panel-body">
+              Circuit elements, signals, Kirchhoff's laws, network theorems, mesh and nodal analysis,
+              transient and complete response of RL, RC, and RLC circuits. As well as AC circuits, phasor notation,
+              polyphase circuits, complex frequency and frequency response, magnetically coupled circuits.
+              Lab consisted of analysis and creating circuits using an oscilloscope, digital multimeter, and AC/DC power supply.
+            </div>
+          </div>
+        </div>
+      </div>
+
+          <div class="panel-group">
+            <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a data-toggle="collapse" href="#collapse7">Digital Signal Processing</a>
+              </h4>
+            </div>
+            <div id="collapse7" class="panel-collapse collapse">
+              <div class="panel-body">
+              Analysis methods for discrete-time signals and systems in the time and frequency-domains including
+              signal models and Fourier techniques. Used MATLAB to filter out some sounds of a MP3 clip using techniques learned.
+            </div>
+          </div>
+        </div>
+      </div>
+
+          <div class="panel-group">
+            <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a data-toggle="collapse" href="#collapse8">Embedded Processor System Design</a>
+              </h4>
+            </div>
+            <div id="collapse8" class="panel-collapse collapse">
+              <div class="panel-body">
+              Embedded C Development of hardware and software for embedded systems. Topics includes real-time operating systems,
+              communication schemes, hardware peripherals and sensors, control methodologies, printed-circuit board design,
+              interrupts, and microcontrollers. Design project consisted of creating an MP3 player on a breadboard,programming
+              and flashing software to let components communicate and play music using an SD card attached.
+            </div>
+          </div>
+        </div>
+      </div>
+
+          <div class="panel-group">
+            <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a data-toggle="collapse" href="#collapse9">Digital Systems Design</a>
+              </h4>
+            </div>
+            <div id="collapse9" class="panel-collapse collapse">
+              <div class="panel-body">
+              Design of 32-bit microcontroller based systems. Topics include the instruction set architecture of a 32-bit microcontroller,
+              assembly language and C programming, using microcontroller peripherals for communication, measurement and control.
+              Student designs, programs and tests microcontroller based projects. Mainly used assembly language for projects.
+            </div>
+          </div>
+        </div>
+      </div>
+
+          <div class="panel-group">
+            <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a data-toggle="collapse" href="#collapse10">Intro to VLSI Design</a>
+              </h4>
+            </div>
+            <div id="collapse10" class="panel-collapse collapse">
+              <div class="panel-body">
+              Design and analysis of digital integrated circuits (ICs). Topics include basic manufacturing techniques,
+              transistor-level design and analysis of logic and memory circuits, logic timing, and parasitics. Used Cadence software
+              to design basic chips at the nano / micrometer level.
+            </div>
+          </div>
+        </div>
+      </div>
+
+          <div class="panel-group">
+            <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a data-toggle="collapse" href="#collapse11">Intro to Computer Communication Networks</a>
+              </h4>
+            </div>
+            <div id="collapse11" class="panel-collapse collapse">
+              <div class="panel-body">
+              Network architecture, protocols and standards, performance considerations, and network technologies. Used WireShark software
+              to track packets and analyse network.
+            </div>
+          </div>
+        </div>
+      </div>
+
+          <div class="panel-group">
+            <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a data-toggle="collapse" href="#collapse12">Basic Programmable Logic Controllers</a>
+              </h4>
+            </div>
+            <div id="collapse12" class="panel-collapse collapse">
+              <div class="panel-body">
+              Learned Ladder Logic Programming and examples from case studies. Hands-on PLC and HMI programming of a machine on both a
+              ControlLogix 5000 and a Siemans S7 hardware to automate a scenario case.
+            </div>
+          </div>
+        </div>
+      </div>
+
+          <div class="panel-group">
+            <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a data-toggle="collapse" href="#collapse13">Intro to Electronic Devices</a>
+              </h4>
+            </div>
+            <div id="collapse13" class="panel-collapse collapse">
+              <div class="panel-body">
+              Materials and device structures for applications in analog and digital electronics such as FETS, diodes, transistors, and
+              operational amplifiers. Lab consisted of using measuring techniques for hands-on analysis of the electronic devices.
+            </div>
+          </div>
+        </div>
+      </div>
+
+          <div class="panel-group">
+            <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a data-toggle="collapse" href="#collapse14">Electronics I</a>
+              </h4>
+            </div>
+            <div id="collapse14" class="panel-collapse collapse">
+              <div class="panel-body">
+              In-depth analysis of diode and transistor circuits, small signal analysis, amplifier design, differential
+              and operational amplifiers, flipflop circuits and waveshaping.
+            </div>
+          </div>
+        </div>
+      </div>
+
+          <div class="panel-group">
+            <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a data-toggle="collapse" href="#collapse15">Computer Organization and Design</a>
+              </h4>
+            </div>
+            <div id="collapse15" class="panel-collapse collapse">
+              <div class="panel-body">
+              Learned topics such as metrics for computer performance, computer arithmetic, Von Neumann architecture,
+              instruction implementation, control unit, pipelining, memory systems hierarchy, cache memories
+              and basic I/O controllers
+            </div>
+          </div>
+        </div>
+      </div>
+
           </p>
         </section>
       </div>
