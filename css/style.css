@@ -39,6 +39,8 @@ header a:hover{
 header ul{
   margin: 0;
   padding: 0;
+  display: inline-block;
+  list-style-type: none;
 }
 
 header li{
@@ -48,7 +50,8 @@ header li{
 }
 
 header nav{
-  float: left;
+  float: center;
+  text-align: center;
   margin-bottom: 10px;
 }
 
@@ -62,11 +65,13 @@ header #branding h1{
 }
 
 header #pagetitle h2{
-  margin: 10px;
-  font-size: 20px;
+  margin-bottom: 20px;
+  margin-top: 5px;
+  font-size: 22px;
   text-align: center;
-  color: #FFFFFF
+  color: #ff9704
 }
+
 
 
 
@@ -103,8 +108,7 @@ footer{
     text-align: center;
     width: 30%;
     padding: 10px;
-
-
+    margin-top: -100px;
 }
 
 
