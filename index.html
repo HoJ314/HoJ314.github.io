@@ -6,76 +6,395 @@
     <meta name="description" content="Web Portfolio Showcase.">
     <meta name="author" content="Jeremy Ho">
     <title> Jeremy Ho's Portfolio | Welcome </title>
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <!-- ============================================= Stylesheets ============================================= -->
+
+    <!-- Stylesheets
+  	============================================= -->
+  	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700|Raleway:300,400,500,600,700|Crete+Round:400i" rel="stylesheet" type="text/css" />
+  	<link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
+  	<link rel="stylesheet" href="css/style.css" type="text/css" />
+  	<link rel="stylesheet" href="css/swiper.css" type="text/css" />
+  	<link rel="stylesheet" href="css/dark.css" type="text/css" />
+  	<link rel="stylesheet" href="css/font-icons.css" type="text/css" />
+  	<link rel="stylesheet" href="css/animate.css" type="text/css" />
+  	<link rel="stylesheet" href="css/magnific-popup.css" type="text/css" />
+
+  	<link rel="stylesheet" href="css/responsive.css" type="text/css" />
+  	<meta name="viewport" content="width=device-width, initial-scale=1" />
+
   </head>
 
-  <body>
-    <div class="page-wrap">
 
-      <header>
-        <div class="container">
-          <div id="branding">
-            <h1> Jeremy Ho </h1>
-          </div>
-          <div id="pagetitle">
-            <h2> Welcome To My Site! </h2>
-          </div>
-          <nav>
-            <ul>
-              <li><a href="index.html">Home</a></li>
-              <li><a href="about.html">About</a></li>
-              <li><a href="contact.html">Contact</a></li>
-              <li><a href="projects.html">Projects</a></li>
-            </ul>
-          </nav>
-        </div>
+  <body class="stretched">
 
-      </header>
+  	<!-- Document Wrapper
+  	============================================= -->
+  	<div id="wrapper" class="clearfix">
 
-        <div id="desc-img"></div>
-        <div id="desc">
-            <h1>Hi! I'm Jeremy!</h1>
-            <p>This site is a small collection of my ideas and who I am.
-              <br>This site is a work in progress as I improve my skills and knowledge in other technolgies.
-              <br>I'm looking for opportunity to make a change, starting with myself, and then the world.
-            </p>
-        </div>
+  		<!-- Header
+  		============================================= -->
+  		<header id="header" class="transparent-header full-header" data-sticky-class="not-dark">
+
+  			<div id="header-wrap">
+
+  				<div class="container clearfix">
+
+  					<div id="primary-menu-trigger"><i class="icon-reorder"></i></div>
 
 
+  					<!-- Primary Navigation
+  					============================================= -->
+  					<nav id="primary-menu" class="dark">
 
-      <section id="introtopics">
-        <div class="container">
+  						<ul>
+  							<li class="current"><a href="index.html"><div>Home</div></a>
 
-          <div class="box">
-            <img src="../img/Placeholder.png">
-            <h3><a href="about.html">About Me</a></h3>
-            <p> Get to know about me! Figure out what I've done and learned so far! </p>
+  							</li>
+  							<li><a href="about.html"><div>About Me</div></a>
 
-          </div>
+  							</li>
+  							<li class="mega-menu"><a href="project.html"><div>Projects</div></a>
 
-        <div class="box">
-          <img src="../img/Placeholder.png">
-          <h3><a href="contact.html">Contact Me</a></h3>
-          <p> Come talk to me! I'd love to hear from you! </p>
-        </div>
-
-        <div class="box">
-          <img src="../img/Placeholder.png">
-          <h3><a href="projects.html">My Projects</a></h3>
-          <p> See what I'm working on or completed! Check out my work! </p>
-        </div>
-
-        </div>
-      </section>
+  							</li>
 
 
-    </div>
+                </li>
+  						</ul>
+
+
+
+  		</header><!-- #header end -->
+
+      <!-- Landing Image
+      		============================================= -->
+
+      <section id="slider" class="slider-element slider-parallax swiper_wrapper full-screen clearfix">
+  			<div class="slider-parallax-inner">
+
+  				<div class="swiper-container swiper-parent">
+  					<div class="swiper-wrapper">
+  						<div class="swiper-slide dark" style="background-image: url('img/land.jpg');">
+  							<div class="container clearfix">
+  								<div class="slider-caption slider-caption-center">
+  									<h2 data-animate="fadeInUp">Jeremy Ho</h2>
+  									<p class="d-none d-sm-block" data-animate="fadeInUp" data-delay="200">Aspiring Software Developer</p>
+  								</div>
+  							</div>
+  						</div>
+              <div class="swiper-slide dark" style="background-image: url('img/land3.jpg');">
+                <div class="container clearfix">
+                  <div class="slider-caption slider-caption-center">
+                    <h2 data-animate="fadeInUp">Hardworking</h2>
+                    <p class="d-none d-sm-block" data-animate="fadeInUp" data-delay="200"> Consistently looking to improve my skills and apply them to my work</p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide dark" style="background-image: url('img/land2.jpg');">
+                <div class="container clearfix">
+                  <div class="slider-caption slider-caption-center">
+                    <h2 data-animate="fadeInUp">Problem and Solutions</h2>
+                    <p class="d-none d-sm-block" data-animate="fadeInUp" data-delay="200">Allow me to take those steps to solve your problems</p>
+                  </div>
+                </div>
+              </div>
+  				</div>
+
+  				<a href="#" data-scrollto="#content" data-offset="100" class="dark one-page-arrow"><i class="icon-angle-down infinite animated fadeInDown"></i></a>
+
+          <div class="slider-arrow-left"><i class="icon-angle-left"></i></div>
+					<div class="slider-arrow-right"><i class="icon-angle-right"></i></div>
+
+  			</div>
+  		</section>
+
+
+
+
+
+      <!-- Content
+      		============================================= -->
+      		<section id="content">
+
+      			<div class="content-wrap">
+
+      				<div class="container clearfix">
+      					<div class="row clearfix">
+
+      						<div class="col-xl-5">
+      							<div class="heading-block topmargin">
+      								<h1>I'm Jeremy!<br>Welcome to my site</h1>
+      							</div>
+      							<p class="lead">Creating a website I am going be proud of. An experimental playground to showcase who I am and my skills</p>
+      						</div>
+
+      						<div class="col-xl-7">
+
+      							<div style="position: relative; margin-bottom: -60px;" class="ohidden" data-height-xl="426" data-height-lg="567" data-height-md="470" data-height-md="287" data-height-xs="183">
+      								<img src="img/pic3.jpg" style="position: absolute; top: 0; left: 0;" data-animate="fadeInUp" data-delay="100" alt="Chrome">
+      								<img src="img/pic3.jpg" style="position: absolute; top: 0; left: 0;" data-animate="fadeInUp" data-delay="400" alt="iPad">
+      							</div>
+
+      						</div>
+
+      					</div>
+      				</div>
+
+      				<div class="section nobottommargin">
+      					<div class="container clear-bottommargin clearfix">
+
+      						<div class="row topmargin-sm clearfix">
+
+      							<div class="col-lg-4 bottommargin">
+      								<i class="i-plain color i-large icon-line2-screen-desktop inline-block" style="margin-bottom: 15px;"></i>
+      								<div class="heading-block nobottomborder" style="margin-bottom: 15px;">
+      									<span class="before-heading">Education</span>
+      									<h4>Computer Engineer</h4>
+      								</div>
+      								<p>Graduated with a B.S. May 2019. Committed to software development and hardware design. Coursework focused on C/C++ language and Embedded Systems</p>
+      							</div>
+
+      							<div class="col-lg-4 bottommargin">
+      								<i class="i-plain color i-large icon-line2-energy inline-block" style="margin-bottom: 15px;"></i>
+      								<div class="heading-block nobottomborder" style="margin-bottom: 15px;">
+      									<span class="before-heading">Hardworking and Detailed</span>
+      									<h4>Opportunity</h4>
+      								</div>
+      								<p>Ready to make a change, starting with myself and then the world. Always looking for opportunities to grow beyond what I currently know</p>
+      							</div>
+
+      							<div class="col-lg-4 bottommargin">
+      								<i class="i-plain color i-large icon-line2-equalizer inline-block" style="margin-bottom: 15px;"></i>
+      								<div class="heading-block nobottomborder" style="margin-bottom: 15px;">
+      									<span class="before-heading">Recent Role</span>
+      									<h4>Field Service Technician</h4>
+      								</div>
+      								<p>Contracted at Mercy Hospital. I provide IT Support to users throughout the hospital. Using ServiceNow to handle tickets and travel to user's location to resolve their issues.</p>
+      							</div>
+
+      						</div>
+
+      					</div>
+      				</div>
+
+      				<div class="container clearfix">
+
+      					<div class="heading-block topmargin-lg center">
+      						<h2>About Me</h2>
+      						<span class="divcenter"> Highly organized and detailed-oriented individual looking to take a step into the software development industry.</span>
+      					</div>
+
+      					<div class="row bottommargin-sm">
+
+      						<div class="col-lg-4 col-md-6 bottommargin">
+
+      							<div class="feature-box fbox-right topmargin" data-animate="fadeIn">
+      								<div class="fbox-icon">
+      									<a href="#"><i class="icon-line-heart"></i></a>
+      								</div>
+      								<h3>Location</h3>
+      								<p>Born and Raised in St. Louis, Missouri</p>
+      							</div>
+
+      							<div class="feature-box fbox-right topmargin" data-animate="fadeIn" data-delay="200">
+      								<div class="fbox-icon">
+      									<a href="#"><i class="icon-line-paper"></i></a>
+      								</div>
+      								<h3>Contact</h3>
+      								<p>HoJ314@gmail.com <br> +1 (314) 601-5160</p>
+      							</div>
+
+      							<div class="feature-box fbox-right topmargin" data-animate="fadeIn" data-delay="400">
+      								<div class="fbox-icon">
+      									<a href="#"><i class="icon-line-layers"></i></a>
+      								</div>
+      								<h3>Languages</h3>
+      								<p>HTML, CSS, C++</p>
+      							</div>
+
+      						</div>
+
+      						<div class="col-lg-4 d-md-none d-lg-block bottommargin center">
+      							<img src="img/flower.png" alt="flower">
+      						</div>
+
+      						<div class="col-lg-4 col-md-6 bottommargin">
+
+      							<div class="feature-box topmargin" data-animate="fadeIn">
+      								<div class="fbox-icon">
+      									<a href="#"><i class="icon-line-power"></i></a>
+      								</div>
+      								<h3>Born</h3>
+      								<p>February 18, 1997</p>
+      							</div>
+
+      							<div class="feature-box topmargin" data-animate="fadeIn" data-delay="200">
+      								<div class="fbox-icon">
+      									<a href="#"><i class="icon-line-check"></i></a>
+      								</div>
+      								<h3>Education</h3>
+      								<p>B.S. Computer Engineer <br> GPA: 3.18/4.0</p>
+      							</div>
+
+      							<div class="feature-box topmargin" data-animate="fadeIn" data-delay="400">
+      								<div class="fbox-icon">
+      									<a href="#"><i class="icon-bulb"></i></a>
+      								</div>
+      								<h3>Ethnicity</h3>
+      								<p>Asian-American</p>
+      							</div>
+
+      						</div>
+
+      					</div>
+
+      				</div>
+
+      				<div class="row clearfix align-items-stretch">
+
+      					<div class="col-lg-6 center col-padding" style="background: url('images/services/main-bg.jpg') center center no-repeat; background-size: cover;">
+      					</div>
+
+
+
+      				</div>
+
+
+
+
+      				<div class="section parallax dark nobottommargin" style="background-image: url('img/test2.jpg'); padding: 100px 0;" data-bottom-top="background-position:0px 300px;" data-top-bottom="background-position:0px -300px;">
+      					<div class="heading-block center">
+      						<h3>What People Say?</h3>
+      					</div>
+
+      					<div class="fslider testimonial testimonial-full" data-animation="fade" data-arrows="true">
+      						<div class="flexslider">
+      							<div class="slider-wrap">
+      								<div class="slide">
+      									<div class="testi-content">
+      										<p>Very easy to work with!</p>
+      										<div class="testi-meta">
+      											Friend #1
+      											<span></span>
+      										</div>
+      									</div>
+      								</div>
+      								<div class="slide">
+      									<div class="testi-content">
+      										<p>Jeremy is always ready to go up and beyond to help you</p>
+      										<div class="testi-meta">
+      											Friend #2
+      											<span></span>
+      										</div>
+      									</div>
+      								</div>
+      								<div class="slide">
+      									<div class="testi-content">
+      										<p>Very supportive and organized. Persists until he get's the work done</p>
+      										<div class="testi-meta">
+      											Friend #3
+      											<span></span>
+      										</div>
+      									</div>
+      								</div>
+      							</div>
+      						</div>
+      					</div>
+      				 </div>
+
+               <div class="clear"></div>
+
+       				<a href="files/JeremyHo_Resume.pdf" target="_blank" class="button button-full button-dark center tright bottommargin-lg">
+       					<div class="container clearfix">
+       						Check out my Resume! <strong>Click Here</strong> <i class="icon-caret-right" style="top:4px;"></i>
+       					</div>
+       				</a>
+
+       				<div class="container clearfix">
+
+       					<div class="col_one_third bottommargin-sm center">
+       						<img data-animate="fadeInLeft" src="img/future2.jpg" alt="SelfPic">
+       					</div>
+
+       					<div class="col_two_third bottommargin-sm col_last">
+
+       						<div class="heading-block topmargin-sm">
+       							<h3>My Mission</h3>
+       						</div>
+
+       						<p>Right now, I getting my foot in the door in the software development and in five years, I will proudly say that I made my way into the industry with experience.
+                    I want to be greatly depended upon for my ability to solve problems. I might make mistakes at times, but there is something to be learned from failure. This is my goal and my hardwork starts now.</p>
+
+
+       					</div>
+
+       				</div>
+
+      				</div>
+      			</div>
+
+
+
+
+
+
+      		</section><!-- #content end -->
+
+
+
+
+
+
+  		<!-- Footer
+  		============================================= -->
+  		<footer id="footer" class="dark">
+
+  			<!-- Copyrights
+  			============================================= -->
+  			<div id="copyrights">
+
+  				<div class="container clearfix">
+
+  					<div class="col_half">
+  						Jeremy Ho's Website.
+              <br>Thanks for visiting!
+  					</div>
+
+  					<div class="col_half col_last tright">
+  						<div class="fright clearfix">
+  							<a href="https://github.com/HoJ314" class="social-icon si-small si-borderless si-github">
+  								<i class="icon-github"></i>
+  								<i class="icon-github"></i>
+  							</a>
+  							<a href="https://www.linkedin.com/in/jeremynho/" class="social-icon si-small si-borderless si-linkedin">
+  								<i class="icon-linkedin"></i>
+  								<i class="icon-linkedin"></i>
+  							</a>
+  						</div>
+  						<div class="clear"></div>
+  						<i class="icon-envelope2"></i> HoJ314@gmail.com <span class="middot">&middot;</span> <i class="icon-headphones"></i> +1 (314) 601-5160 <span class="middot">&middot;</span>
+  					</div>
+
+  				</div>
+
+  			</div><!-- #copyrights end -->
+
+  		</footer><!-- #footer end -->
+
+  	</div><!-- #wrapper end -->
+
+  	<!-- Go To Top
+  	============================================= -->
+  	<div id="gotoTop" class="icon-angle-up"></div>
+
+  	<!-- External JavaScripts
+  	============================================= -->
+  	<script src="js/jquery.js"></script>
+  	<script src="js/plugins.js"></script>
+
+  	<!-- Footer Scripts
+  	============================================= -->
+  	<script src="js/functions.js"></script>
+
   </body>
-
-
-  <footer>
-      © 2020 Copyright: Jeremy's Pretend Company
-  </footer>
+  </html>

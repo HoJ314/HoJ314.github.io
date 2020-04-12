@@ -1,0 +1,141 @@
+html {
+  height: 100%;
+}
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+  height:100%;
+  background-color: #B9EFFE;
+
+}
+
+
+
+/* -----------Header----------- */
+header{
+  background: #7A909E;
+  color: #3870b8;
+  padding-top: 10px;
+  padding-left: 10px;
+  min-height: 70px;
+  border-bottom: #3870b8 5px solid;
+}
+
+header a{
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
+header a:hover{
+  color: #e8491d;
+  font-weight: bold;
+}
+
+
+header ul{
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  list-style-type: none;
+}
+
+header li{
+  float:left;
+  display: inline;
+  padding: 0 20px 0 20px;
+}
+
+header nav{
+  float: center;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+header #branding{
+  text-align: center;
+}
+
+header #branding h1{
+  margin: 0px;
+  font-size: 60px;
+}
+
+header #pagetitle h2{
+  margin-bottom: 20px;
+  margin-top: 5px;
+  font-size: 22px;
+  text-align: center;
+  color: #ff9704
+}
+
+
+
+
+/* --------- Footer ------- */
+
+footer{
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  height: 30px;
+  padding-top: 5px;
+  text-align: center;
+  background-color: #3870b8;
+  color: #ffffff;
+}
+
+.page-wrap {
+  min-height: 100%;
+  margin-bottom: -30px;
+}
+
+.page-wrap:after {
+  content: "";
+  display: block;
+}
+.site-footer, .page-wrap:after {
+    height: 30px;
+}
+
+/* Home Page Navigation Boxes */
+
+#introtopics .box{
+    float: left;
+    text-align: center;
+    width: 30%;
+    padding: 10px;
+    margin-top: -100px;
+}
+
+
+/* --------Showcase-------- */
+#desc-img{
+  min-height: 400px;
+  background-image:url('../img/showcase.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: -3px solid #f1f1f1;
+
+  filter: blur(5px);
+}
+#desc{
+  background-color: rgb(0,100,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 16px;
+  border: 3px solid #3870b8;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-300px);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
