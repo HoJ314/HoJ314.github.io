@@ -6,95 +6,191 @@
     <meta name="description" content="Web Portfolio Showcase.">
     <meta name="author" content="Jeremy Ho">
     <title> Jeremy Ho's Portfolio | Projects </title>
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <!-- ============================================= Stylesheets ============================================= -->
+
+    <!-- Stylesheets
+  	============================================= -->
+  	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700|Raleway:300,400,500,600,700|Crete+Round:400i" rel="stylesheet" type="text/css" />
+  	<link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
+  	<link rel="stylesheet" href="css/style.css" type="text/css" />
+  	<link rel="stylesheet" href="css/swiper.css" type="text/css" />
+  	<link rel="stylesheet" href="css/dark.css" type="text/css" />
+  	<link rel="stylesheet" href="css/font-icons.css" type="text/css" />
+  	<link rel="stylesheet" href="css/animate.css" type="text/css" />
+  	<link rel="stylesheet" href="css/magnific-popup.css" type="text/css" />
+
+  	<link rel="stylesheet" href="css/responsive.css" type="text/css" />
+  	<meta name="viewport" content="width=device-width, initial-scale=1" />
+
   </head>
 
-  <body>
-      <div class="page-wrap">
+
+  <body class="stretched">
+
+  	<!-- Document Wrapper
+  	============================================= -->
+  	<div id="wrapper" class="clearfix">
+
+  		<!-- Header
+  		============================================= -->
+  		<header id="header" class="transparent-header full-header" data-sticky-class="not-dark">
+
+  			<div id="header-wrap">
+
+  				<div class="container clearfix">
+
+  					<div id="primary-menu-trigger"><i class="icon-reorder"></i></div>
 
 
-      <header>
-        <div class="container">
-          <div id="branding">
-            <h1> Jeremy Ho </h1>
-          </div>
-          <div id="pagetitle">
-            <h2> Project Workplace </h2>
-          </div>
-          <nav>
-            <ul>
-              <li><a href="index.html">Home</a></li>
-              <li><a href="about.html">About</a></li>
-              <li><a href="contact.html">Contact</a></li>
-              <li><a href="projects.html">Projects</a></li>
-            </ul>
-          </nav>
+  					<!-- Primary Navigation
+  					============================================= -->
+  					<nav id="primary-menu" class="dark">
+
+  						<ul>
+  							<li class="mega-menu"><a href="index.html"><div>Home</div></a>
+
+  							</li>
+  							<li><a href="about.html"><div>About Me</div></a>
+
+  							</li>
+  							<li class="current"><a href="projects.html"><div>Projects</div></a>
+
+  							</li>
+  						</ul>
+  		</header><!-- #header end -->
+
+
+
+      <a href="https://github.com/HoJ314" target="_blank" class="button button-full button center tright bottommargin-lg">
+        <div class="container clearfix">
+          My work on GitHub! <strong> Check it out  </strong> <i class="icon-caret-right" style="top:4px;"></i>
         </div>
-      </header>
+      </a>
 
-      <div class="container">
-        <section id="introproj">
-          <p> You can find most of my work here: </p>
-          <ul>
-            <li><a href="https://github.com/HoJ314">GitHub</a></li>
-          </ul>
-        </section>
+
+
+      <div class="heading-block center">
+      		<h1>Current Project</h1>
       </div>
 
-      <div class="container">
-        <section id="currentproj">
-          <h1> Current Project: Pathfinding Visualizer</h1>
-          <p><b>Goal:</b> Gain knowledge from a full-stack perspective. Learn how to create a GUI and implement
+
+
+      <div class="heading-block center nobottomborder bottommargin-lg">
+      		<h3>Pathfinding Visualizer</h3>
+      		<span><p><b>Goal:</b> Gain knowledge from a full-stack perspective. Learn how to create a GUI and implement
             multiple common algorithm concepts.</p>
           <p><b>Description:</b> Finds shortest path between two nodes in a grid and displays
             the process in a graphical user interface. </p>
-        </section>
+          </span>
       </div>
-        </br>
-        <div class="container">
-          <section id="schoolproj">
-            <h1> Previous School Projects </h1>
-            <h3> 8-Bit CPU and Curriculum (Senior Design)</h3>
-            <p><b> Goal: </b> To create a product and go through the entire engineering process from
-            brainstorming to purchasing to prototyping.   </p>
-            <p><b>Description:</b> To create an 8-Bit CPU modular kit with a curriculum alongside it
-            to allow others to learn hands-on. </p>
-            <p> <a href="files\8BitReport.pdf" target="_blank">Design Report</a>&emsp;
-              <a href="files\CPUInstr.pdf" target="_blank"> Example Curriculum</a>&emsp;
-              <a href="files\Poster1.pdf" target="_blank"> Poster 1</a>&emsp;
-              <a href="files\Poster2.pdf" target="_blank"> Poster 2</a>&emsp;
-              <a href="files\CPURegisters.jpg" target="_blank"> Module 1</a>&emsp;
-              <a href="files\CPUALU.png" target="_blank"> Module 2</a>&emsp;
-            </p>
+      </br>
 
+      <div class="heading-block center">
+      		<h1>School Projects</h1>
+      </div>
+
+      <div class="heading-block center nobottomborder bottommargin-lg">
+      		<h3> 8-Bit CPU and Curriculum (Senior Design)</h3>
+      		<span>
           </br>
+          <p><b> Goal: </b> To create a product and go through the entire engineering process from
+          brainstorming to purchasing to prototyping.   </p>
+          <p><b>Description:</b> To create an 8-Bit CPU modular kit with a curriculum alongside it
+          to allow others to learn hands-on. </p>
+          <p> <a href="files\8BitReport.pdf" target="_blank">Design Report</a>&emsp;
+            <a href="files\CPUInstr.pdf" target="_blank"> Example Curriculum</a>&emsp;
+            <a href="files\Poster1.pdf" target="_blank"> Poster 1</a>&emsp;
+            <a href="files\Poster2.pdf" target="_blank"> Poster 2</a>&emsp;
+            <a href="files\CPURegisters.jpg" target="_blank"> Module 1</a>&emsp;
+            <a href="files\CPUALU.png" target="_blank"> Module 2</a>&emsp;
+          </p>
+        </span>
+      </div>
 
-            <h3> MP3 Player (Embedded Processor Systems Design) </h3>
-            <p><b> Goal: </b> Develop and understand the implementations of hardware and software in embedded systems   </p>
-            <p><b>Description:</b> Create an MP3 player using topics
-              including real-time OS, programming, printed circuit boards, microcontrollers,
-              and hardware-software communication. </p>
-              <p> <a href="files\mp3comp.png" target="_blank">MP3 Breadboard</a>&emsp;
-                <a href="files\mp3wired.png" target="_blank"> Wired 1</a>&emsp;
-                <a href="files\mp3wired2.png" target="_blank"> Wired 2</a>&emsp;
-                <a href="https://github.com/HoJ314/MP3-Project" target="_blank"> Program Files</a>&emsp;
-              </p>
-        </section>
+
+      <div class="heading-block center nobottomborder bottommargin-lg">
+          <h3> MP3 Player (Embedded Processor Systems Design) </h3>
+          <span>
+          <p><b> Goal: </b> Develop and understand the implementations of hardware and software in embedded systems   </p>
+          <p><b>Description:</b> Create an MP3 player using topics
+            including real-time OS, programming, printed circuit boards, microcontrollers,
+            and hardware-software communication. </p>
+            <p> <a href="files\mp3comp.png" target="_blank">MP3 Breadboard</a>&emsp;
+              <a href="files\mp3wired.png" target="_blank"> Wired 1</a>&emsp;
+              <a href="files\mp3wired2.png" target="_blank"> Wired 2</a>&emsp;
+              <a href="https://github.com/HoJ314/MP3-Project" target="_blank"> Program Files</a>&emsp;
+            </p>
+      </section>
+      </span>
+
+      </div>
 
 
-        </div>
 
+
+
+      </br>
 
 
       </div>
+
+
+
+
+
+
+
+      <!-- Footer
+  		============================================= -->
+  		<footer id="footer" class="dark">
+
+  			<!-- Copyrights
+  			============================================= -->
+  			<div id="copyrights">
+
+  				<div class="container clearfix">
+
+  					<div class="col_half">
+  						Jeremy Ho's Website.
+              <br>Thanks for visiting!
+  					</div>
+
+  					<div class="col_half col_last tright">
+  						<div class="fright clearfix">
+  							<a href="https://github.com/HoJ314" class="social-icon si-small si-borderless si-github">
+  								<i class="icon-github"></i>
+  								<i class="icon-github"></i>
+  							</a>
+  							<a href="https://www.linkedin.com/in/jeremynho/" class="social-icon si-small si-borderless si-linkedin">
+  								<i class="icon-linkedin"></i>
+  								<i class="icon-linkedin"></i>
+  							</a>
+  						</div>
+  						<div class="clear"></div>
+  						<i class="icon-envelope2"></i> HoJ314@gmail.com <span class="middot">&middot;</span> <i class="icon-headphones"></i> +1 (314) 601-5160 <span class="middot">&middot;</span>
+  					</div>
+
+  				</div>
+
+  			</div><!-- #copyrights end -->
+
+  		</footer><!-- #footer end -->
+
+  	</div><!-- #wrapper end -->
+
+  	<!-- Go To Top
+  	============================================= -->
+  	<div id="gotoTop" class="icon-angle-up"></div>
+
+  	<!-- External JavaScripts
+  	============================================= -->
+  	<script src="js/jquery.js"></script>
+  	<script src="js/plugins.js"></script>
+
+  	<!-- Footer Scripts
+  	============================================= -->
+  	<script src="js/functions.js"></script>
 
   </body>
-
-  <footer>
-      © 2020 Copyright: Jeremy's Pretend Company
-  </footer>
-
 </html>
